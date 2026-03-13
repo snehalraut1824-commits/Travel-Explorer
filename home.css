@@ -1,0 +1,92 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Styling */
+.custom-navbar {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(6px);
+  transition: 0.4s ease;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.text-highlight {
+  color: #00bfff;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  margin: 0 10px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00bfff !important;
+}
+
+/* Carousel Image */
+.carousel-img {
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(75%);
+}
+
+/* Carousel Caption */
+.carousel-caption {
+  bottom: 35%;
+}
+
+.carousel-caption h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  text-shadow: 2px 2px 5px #000;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .carousel-caption h1 {
+    font-size: 2rem;
+  }
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+  .navbar-brand span {
+    font-size: 1.3rem;
+  }
+}
+
+/* ------------------------------ */
+.section-title {
+  font-weight: 700;
+  color: #807f7f;
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+/* ----------------------------- */ 
+

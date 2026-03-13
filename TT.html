@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Tips | TravelExplorer</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f5f7fa;
+    }
+
+    /* Navbar */
+    .custom-navbar {
+      background: rgba(0,0,0,0.6);
+      backdrop-filter: blur(6px);
+    }
+
+    /* Header */
+    .tips-header {
+      height: 75vh;
+      background: url("https://images.unsplash.com/photo-1469474968028-56623f02e42e") center/cover no-repeat;
+      text-shadow: 2px 2px 8px #000;
+    }
+
+    .tips-header h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    /* Card Section */
+    .tips-section {
+      padding: 70px 0;
+    }
+
+    .tip-card {
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+      transition: 0.3s ease;
+      background: white;
+      height: 100%;
+    }
+
+    .tip-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 25px rgba(0,191,255,0.35);
+    }
+
+    .tip-card img {
+      height: 230px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .tip-card h5 {
+      color: #00b4d8;
+      font-weight: 600;
+      margin-top: 15px;
+    }
+
+    .tip-card p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    /* Footer */
+    .footer {
+      background: #000;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="https://cdn-icons-png.flaticon.com/512/69/69906.png" width="38" class="me-2">
+      <span>Travel<span style="color:#00b4d8;">Explorer</span></span>
+    </a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="nav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="destination.html">Destination</a></li>
+        <li class="nav-item"><a class="nav-link active" href="TT.html">Travel Tips</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
+<header class="tips-header d-flex align-items-center justify-content-center text-center text-light">
+  <div>
+    <h1>Travel Tips</h1>
+    <p class="fs-5">Smart tips for a smooth and enjoyable journey</p>
+  </div>
+</header>
+
+<!-- Tips Cards -->
+<section class="tips-section container">
+  <div class="row g-4">
+
+    <div class="col-md-4">
+      <div class="tip-card text-center p-3">
+        <img src="https://plus.unsplash.com/premium_photo-1756137396231-f8bdbd96d32b?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <h5>Pack Smart</h5>
+        <p>Carry essentials only, organize your luggage well, and avoid overpacking for easy travel.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="tip-card text-center p-3">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f">
+        <h5>Plan Your Budget</h5>
+        <p>Track expenses, book early, and always keep emergency money for stress-free trips.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="tip-card text-center p-3">
+        <img src="https://images.unsplash.com/photo-1761292630740-d821dc203975?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <h5>Stay Connected</h5>
+        <p>Carry power banks, local SIM cards, and offline maps to stay connected everywhere.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="tip-card text-center p-3">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+        <h5>Check Weather</h5>
+        <p>Always check weather updates to pack correctly and avoid travel disruptions.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="tip-card text-center p-3">
+        <img src="https://images.unsplash.com/photo-1502920514313-52581002a659">
+        <h5>Keep Documents Safe</h5>
+        <p>Keep digital and physical copies of important documents during travel.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="tip-card text-center p-3">
+        <img src="https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9">
+        <h5>Respect Local Culture</h5>
+        <p>Learn basic local rules and traditions to have a respectful travel experience.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>© 2025 TravelExplorer | Designed by <strong>Snehal Raut</strong></p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
